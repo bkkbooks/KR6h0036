@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6h0036/A/v1
+canonical_location: https://kanripo.org/bkk/KR6h0036/A/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 佛說大乘僧伽吒法義經
+  identifiers:
+    krp: KR6h0036
+    cbeta: A114n1504
+    cbeta_old_id: A114n1504
+    authorityid: CA0007986
+    json_key: A1504
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/A/A114/A114n1504.xml
+    old_id: A114n1504
+  edition:
+    short: A
+assets:
+  parts:
+  - {seq: 0, filename: KR6h0036_000-A.yaml, hash: 'sha256:703a80b60b525420a46b7a9ac0d377139e96eb0f6056daccb8cde825ceaa5d71'}
+  - {seq: 2, filename: KR6h0036_002-A.yaml, hash: 'sha256:f1e4a482681fc2b36b9d1ef02c1f693e254f9576c42164d7bb15162871626ca2'}
+  - {seq: 7, filename: KR6h0036_007-A.yaml, hash: 'sha256:bfcd829534ac8930d6a6acac86c501126fcd6fbecb6e5099101d81aed2c2cd6a'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6h0036_000-A.markers.yaml, hash: 'sha256:b08d3e6f1fb188de2bc3f5d639cccd5bedafe5cb00f3ce280798aa18fdd4fa60'}
+  - {seq: 2, role: markers, filename: assets/KR6h0036_002-A.markers.yaml, hash: 'sha256:5f758389f9215ee581c9e21ffaa7a95a897a355658180b9abee85124eacd76d3'}
+  - {seq: 7, role: markers, filename: assets/KR6h0036_007-A.markers.yaml, hash: 'sha256:472182506d076b543f58f7c7c53c0c27380d57756ad6010d9b138545243ca8d9'}
+table_of_contents:
+- ref:
+    seq: 2
+    marker_id: KR6h0036_A_002-juan-start
+    span:
+    - body
+    - 0
+    - 7588
+  label: 佛說大乘僧伽吒法義經卷第二
+  type: juan
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6h0036_A_007-juan-start
+    span:
+    - body
+    - 0
+    - 3824
+  label: 佛說大乘僧伽吒法義經卷第七　鴈
+  type: juan
+  level: 1
+hash: sha256:59d10da7d9cf729e3f2c6e205805171a69ecfd2a48e53095c319936ade35cdf7
